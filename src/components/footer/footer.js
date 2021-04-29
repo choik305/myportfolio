@@ -8,8 +8,8 @@ export default class Footer extends Component {
             <div className="twelve columns">
               <ul className="social-links">
                 <li><a href="https://www.facebook.com/choik305"><i className="fa fa-facebook" /></a></li>
-                <li><a href="https://www.linkedin.com/in/kevinchoi305/"><i className="fa fa-linkedin" /></a></li>
-                <li><a href="https://github.com/choik305"><i className="fa fa-github" /></a></li>
+                <li><a href="https://www.linkedin.com/in/kevinyc/"><i className="fa fa-linkedin" /></a></li>
+                <li><a href="https://github.com/kevinyc-dri"><i className="fa fa-github" /></a></li>
               </ul>
               <ul className="copyright">
                 <li>© Copyright 2019 Kevin Choi</li>
