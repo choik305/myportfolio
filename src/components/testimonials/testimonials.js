@@ -15,7 +15,7 @@ export default class Testimonials extends Component {
                     <li>
                       <blockquote>
                         <p>Never stop learning!</p>
-                        <cite>Wyncode Academy</cite>
+                        <cite>Boca Code</cite>
                       </blockquote>
                     </li> {/* slide ends */}
                     <li>
