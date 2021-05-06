@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 export default class Portfolio extends Component {
   render() {
     return (
-      <React.Fragment>
-        
+      <>
         <div>
           <div className="row work">
             <div className="three columns header-col">
@@ -41,7 +40,7 @@ export default class Portfolio extends Component {
                   <div className="columns portfolio-item">
                     <div className="item-wrap">
                       <a href="#modal-01" title>
-                        <img alt src="images/portfolio/coffee.jpg" />
+                        <img alt="coffee-pic" src="images/portfolio/coffee.jpg" />
                         <div className="overlay">
                           <div className="portfolio-item-meta">
                             <h5>Cup of Sugar</h5>
@@ -106,8 +105,8 @@ export default class Portfolio extends Component {
               <h1><span>Skills</span></h1>
             </div>
             <div className="nine columns main-col">
-              <p>HTML5, CSS, JavaScript, React, SQL, jQuery, PosGres, Postman, CRUD, Ruby on Rails, Node.js, SCRUM Master, Docker, Kubernetes. 
-      </p>
+              <h4>HTML5, CSS, JavaScript, React, SQL, jQuery, PosGres, Postman, CRUD, Ruby on Rails, Node.js, SCRUM Master, Docker, Kubernetes. 
+      </h4>
               <div className="bars">
                 <ul className="skills">
                   <li><span className="bar-expand photoshop" /><em>HTML</em></li>
@@ -122,9 +121,7 @@ export default class Portfolio extends Component {
           </div> {/* End skills */}
           {/* Resume Section End*/}
         </div>
-
-    
-      </React.Fragment>
+      </>
     );
   }
 }
