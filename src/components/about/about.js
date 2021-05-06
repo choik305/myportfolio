@@ -3,10 +3,10 @@ export default class About extends Component {
   render() {
     return (
       <>
-        {<section id="about">
+        <section id="about">
           <div className="row">
             <div className="three columns">
-              <img className="profile-pic" src="images/profilepic.jpg" alt />
+              <img className="profile-pic" src="images/profilepic.jpg" alt="profile-pic" />
             </div>
             <div className="nine columns main-col">
               <h2>About Me</h2>
@@ -15,10 +15,10 @@ export default class About extends Component {
                 <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
-                    <span>KEVIN CHOI<br />
-                    <span></span><br />
-                      Miami, FL US
-            </span><br />
+                    <span>KEVIN CHOI</span>
+                    <br />
+                    <span>Miami, FL US</span>
+                    <br />
                     <span>kevinyoungchoi@gmail.com</span>
                   </p>
                 </div>
@@ -27,11 +27,10 @@ export default class About extends Component {
                     <a href="/KevinFullStackDevResume.pdf" className="button"><i className="fa fa-download" />Download Resume</a>
                   </p>
                 </div>
-              </div> 
-            </div> 
+              </div>
+            </div>
           </div>
-        </section> 
-        } 
+        </section>
       </>
     );
   }
