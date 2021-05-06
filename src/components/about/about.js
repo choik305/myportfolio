@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 export default class About extends Component {
   render() {
     return (
-      <React.Fragment>
+      <>
         {<section id="about">
           <div className="row">
             <div className="three columns">
@@ -31,9 +31,8 @@ export default class About extends Component {
             </div> 
           </div>
         </section> 
-        }
-                
-      </React.Fragment>
+        } 
+      </>
     );
   }
 }
