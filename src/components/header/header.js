@@ -19,8 +19,8 @@ export default class Header extends Component {
         </nav> {/* end #nav-wrap */}
         <div className="row banner">
           <div className="banner-text">
-            <h1 className="responsive-headline"> {resumeData.name}.</h1>
-            <h3>I'm a {resumeData.role}.</h3>
+            <h1 className="responsive-headline">I'm {resumeData.name}.</h1>
+            <h3>I'm a {resumeData.role}. {resumeData.roleDescription}</h3>
             <hr />
             <ul className="social">
                 <li><a href="https://www.facebook.com/choik305"><i className="fa fa-facebook" /></a></li>
