@@ -20,10 +20,10 @@ export default class Resume extends Component {
               </div> {/* item end */}
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>Wyncode Academy</h3>
-                  <p className="info">Full Stack Web Development Certificate <span>•</span> <em className="date">March 2019</em></p>
+                  <h3>Boca Code</h3>
+                  <p className="info">Software Engineering Career Course <span>•</span> <em className="date">March 2019</em></p>
                   <p>
-                   Wyncode’s full stack web development immersive focuses on JavaScript, HTML, Rails, jQuery, Ruby, CSS, and React.js. Their front end web development program focuses on JavaScript, HTML, jQuery, CSS, and React.js. On top of technical skills, Wyncode teaches soft skills with a focus on professional development.
+                   Boca Code’s Software Engineering Career Course focuses on the latest technology which include JavaScript, Node.js, HTML, CSS, React, Firebase and many more. On top of technical skills, Boca Code teaches soft skills with a focus on professional development, agile methodologies, team work, communication and collaboration.
                   </p>
                 </div>
               </div> 
