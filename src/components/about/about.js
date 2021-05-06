@@ -3,7 +3,7 @@ export default class About extends Component {
   render() {
     return (
       <>
-        {<section id="about">
+        <section id="about">
           <div className="row">
             <div className="three columns">
               <img className="profile-pic" src="images/profilepic.jpg" alt="profile-pic" />
@@ -31,7 +31,6 @@ export default class About extends Component {
             </div>
           </div>
         </section>
-        }
       </>
     );
   }
