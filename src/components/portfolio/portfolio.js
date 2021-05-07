@@ -14,7 +14,7 @@ export default class Portfolio extends Component {
                   <h3>Game of Thrones Project</h3>
                   <p className="info">Project Manager <span>•</span> <em className="date">April 2019</em></p>
                   <p>
-                    HTML, CSS, and React web application using a Game of Thrones API. Informs and refreshes character information for upcoming season. 
+                    HTML, CSS, and React web application using a Game of Thrones API. Informs and refreshes character information for upcoming season.
           </p>
                 </div>
               </div> {/* item end */}
@@ -23,7 +23,7 @@ export default class Portfolio extends Component {
                   <h3>Cup of Sugar</h3>
                   <p className="info">Web Developer <span>•</span> <em className="date">March 2019</em></p>
                   <p>
-                    Ruby of Rails, Twilio Chat. Web app to prevent and stop product over consumption within apartment buildings. 
+                    Ruby of Rails, Twilio Chat. Web app to prevent and stop product over consumption within apartment buildings.
           </p>
                 </div>
               </div> {/* item end */}
@@ -54,7 +54,7 @@ export default class Portfolio extends Component {
                   <div className="columns portfolio-item">
                     <div className="item-wrap">
                       <a href="#modal-02" title>
-                        <img alt src="images/portfolio/gothomepage.jpg" style={{height: 215}} />
+                        <img alt src="images/portfolio/gothomepage.jpg" style={{ height: 215 }} />
                         <div className="overlay">
                           <div className="portfolio-item-meta">
                             <h5>Game of Thrones</h5>
@@ -65,7 +65,7 @@ export default class Portfolio extends Component {
                       </a>
                     </div>
                   </div> {/* item end */}
-                  
+
                 </div> {/* portfolio-wrapper end */}
               </div> {/* twelve columns end */}
               {/* Modal Popup
@@ -94,7 +94,7 @@ export default class Portfolio extends Component {
                   <a className="popup-modal-dismiss">Close</a>
                 </div>
               </div>{/* modal-02 End */}
-              
+
             </div> {/* row End */}
           </section> {/* Portfolio Section End*/}
 
@@ -105,8 +105,7 @@ export default class Portfolio extends Component {
               <h1><span>Skills</span></h1>
             </div>
             <div className="nine columns main-col">
-              <h4>HTML5, CSS, JavaScript, React, SQL, jQuery, PosGres, Postman, CRUD, Ruby on Rails, Node.js, SCRUM Master, Docker, Kubernetes. 
-      </h4>
+              <p>HTML5, CSS, JavaScript, React, SQL, jQuery, PosGres, Postman, CRUD, Ruby on Rails, Node.js, SCRUM Master, Docker, Kubernetes.</p>
               <div className="bars">
                 <ul className="skills">
                   <li><span className="bar-expand photoshop" /><em>HTML</em></li>
