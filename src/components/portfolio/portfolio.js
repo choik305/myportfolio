@@ -54,7 +54,7 @@ export default class Portfolio extends Component {
                   <div className="columns portfolio-item">
                     <div className="item-wrap">
                       <a href="#modal-02" title>
-                        <img alt="game-of-thrones" src="images/portfolio/gothomepage.jpg" style={{ height: 215 }} />
+                        <img alt="game-of-thrones" src="images/portfolio/gothomepage.jpg" style={{ height: 200 }} />
                         <div className="overlay">
                           <div className="portfolio-item-meta">
                             <h5>Game of Thrones</h5>
@@ -68,7 +68,7 @@ export default class Portfolio extends Component {
                   <div className="columns portfolio-item">
                     <div className="item-wrap">
                       <a href="#modal-03" title>
-                        <img alt="resources-co" src="images/portfolio/resources-co.jpg" style={{ height: 215 }} />
+                        <img alt="resources-co" src="images/portfolio/resources-logo.jpg" style={{ height: 200 }} />
                         <div className="overlay">
                           <div className="portfolio-item-meta">
                             <h5>Resources.co</h5>
@@ -109,7 +109,7 @@ export default class Portfolio extends Component {
                 </div>
               </div>{/* modal-02 End */}
               <div id="modal-03" className="popup-modal mfp-hide">
-                <img className="scale-with-grid" src="./images/portfolio/resources-co.jpg" alt="resources-co" />
+                <img className="scale-with-grid" src="images/portfolio/resources-logo.jpg" alt="resources-co" />
                 <div className="description-box">
                   <h4>Resources.co</h4>
                   <p>An Open-source console to interact with data and APIs.</p>
@@ -117,7 +117,7 @@ export default class Portfolio extends Component {
                 </div>
                 <div className="link-box">
                   <a href="https://resources.co/">Link</a>
-                  <a href="#resources-co" className="popup-modal-dismiss">Close</a>
+                  <a  className="popup-modal-dismiss">Close</a>
                 </div>
               </div>{/* modal-02 End */}
 
