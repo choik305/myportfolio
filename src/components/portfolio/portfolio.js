@@ -54,7 +54,7 @@ export default class Portfolio extends Component {
                   <div className="columns portfolio-item">
                     <div className="item-wrap">
                       <a href="#modal-02" title>
-                        <img alt="game-of-thrones" src="images/portfolio/gothomepage.jpg" style={{ height: 200 }} />
+                        <img alt="game-of-thrones" src="images/portfolio/gothomepage.jpg" style={{ height: 216 }} />
                         <div className="overlay">
                           <div className="portfolio-item-meta">
                             <h5>Game of Thrones</h5>
@@ -68,7 +68,7 @@ export default class Portfolio extends Component {
                   <div className="columns portfolio-item">
                     <div className="item-wrap">
                       <a href="#modal-03" title>
-                        <img alt="resources-co" src="images/portfolio/resources-logo.jpg" style={{ height: 200 }} />
+                        <img alt="resources-co" src="images/portfolio/resources-logo.jpg" style={{ height: 216 }} />
                         <div className="overlay">
                           <div className="portfolio-item-meta">
                             <h5>Resources.co</h5>
@@ -117,7 +117,7 @@ export default class Portfolio extends Component {
                 </div>
                 <div className="link-box">
                   <a href="https://resources.co/">Link</a>
-                  <a  className="popup-modal-dismiss">Close</a>
+                  <a href="#resources-co" className="popup-modal-dismiss">Close</a>
                 </div>
               </div>{/* modal-02 End */}
 
