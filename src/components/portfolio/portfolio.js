@@ -11,20 +11,29 @@ export default class Portfolio extends Component {
             <div className="nine columns main-col">
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>Game of Thrones Project</h3>
-                  <p className="info">Project Manager <span>•</span> <em className="date">April 2019</em></p>
+                  <h3>Miami EdTech</h3>
+                  <p className="info">Lead Instructor <span>•</span> <em className="date">March 2020 - April 2021</em></p>
                   <p>
-                    HTML, CSS, and React web application using a Game of Thrones API. Informs and refreshes character information for upcoming season.
-          </p>
+                    Academic Coordinator and Instructor. Lead Instructor- Computer Programming, IT, Software Development, Computer Science Pedagogy, Project Management, Coding, and Web Development.
+                  </p>
                 </div>
               </div> {/* item end */}
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>Cup of Sugar</h3>
-                  <p className="info">Web Developer <span>•</span> <em className="date">March 2019</em></p>
+                  <h3>Teaching Fellow</h3>
+                  <p className="info">Teachers Assistant <span>•</span> <em className="date">July 2019 - August 2019</em></p>
                   <p>
-                    Ruby of Rails, Twilio Chat. Web app to prevent and stop product over consumption within apartment buildings.
-          </p>
+                    Part-Time Teaching Fellow - Computer Programming, IT, Software Development, Front-end Web Development, Back-end Web Development, Project Management, Coding, and Web Development.
+                  </p>
+                </div>
+              </div> {/* item end */}
+              <div className="row item">
+                <div className="twelve columns">
+                  <h3>TechHire Lead Instructor</h3>
+                  <p className="info">Lead Instructor <span>•</span> <em className="date">June 2019 - August 2019</em></p>
+                  <p>
+                    TechHire lead instructor for Web-Development Course teaching HTML, CSS, JavaScript, jQuery. Led career mentorship and implemented growth mindset Pedagogy to students at Florida Memorial University.
+                  </p>
                 </div>
               </div> {/* item end */}
             </div> {/* main-col end */}

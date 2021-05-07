@@ -20,9 +20,6 @@ let resumeData = {
         "className":"fa fa-skype"
       }
     ],
-  "aboutme":"I have finished my B.E. in Computer Science and have been working in industry for past few years.",
-  "address":"India",
-  "website":"https://www.codeclassifiers.com",
   "education":[
     {
       "UniversityName":"University of Nevada, Las Vegas",
