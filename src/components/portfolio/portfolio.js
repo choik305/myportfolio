@@ -54,11 +54,25 @@ export default class Portfolio extends Component {
                   <div className="columns portfolio-item">
                     <div className="item-wrap">
                       <a href="#modal-02" title>
-                        <img alt src="images/portfolio/gothomepage.jpg" style={{ height: 215 }} />
+                        <img alt="game-of-thrones" src="images/portfolio/gothomepage.jpg" style={{ height: 215 }} />
                         <div className="overlay">
                           <div className="portfolio-item-meta">
                             <h5>Game of Thrones</h5>
                             <p>Team White Walker C32</p>
+                          </div>
+                        </div>
+                        <div className="link-icon"><i className="icon-plus" /></div>
+                      </a>
+                    </div>
+                  </div> {/* item end */}
+                  <div className="columns portfolio-item">
+                    <div className="item-wrap">
+                      <a href="#modal-03" title>
+                        <img alt="resources-co" src="images/portfolio/resources-co.jpg" style={{ height: 215 }} />
+                        <div className="overlay">
+                          <div className="portfolio-item-meta">
+                            <h5>Resources.co</h5>
+                            <p>Open-source web application</p>
                           </div>
                         </div>
                         <div className="link-icon"><i className="icon-plus" /></div>
@@ -71,7 +85,7 @@ export default class Portfolio extends Component {
               {/* Modal Popup
 	      --------------------------------------------------------------- */}
               <div id="modal-01" className="popup-modal mfp-hide">
-                <img className="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt />
+                <img className="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="cup-of-sugar" />
                 <div className="description-box">
                   <h4>Cup of Sugar</h4>
                   <p>Ruby of Rails, Twilio Chat. Web app to prevent and stop product over consumption within apartment buildings.</p>
@@ -79,11 +93,11 @@ export default class Portfolio extends Component {
                 </div>
                 <div className="link-box">
                   <a href="https://boiling-tundra-57022.herokuapp.com/users/sign_in">Link</a>
-                  <a className="popup-modal-dismiss">Close</a>
+                  <a href="#cup-sugar" className="popup-modal-dismiss">Close</a>
                 </div>
               </div>{/* modal-01 End */}
               <div id="modal-02" className="popup-modal mfp-hide">
-                <img className="scale-with-grid" src="./images/portfolio/gothomepage.jpg" alt />
+                <img className="scale-with-grid" src="./images/portfolio/gothomepage.jpg" alt="game-of-thrones" />
                 <div className="description-box">
                   <h4>Game of Thrones</h4>
                   <p>HTML, CSS, and React web application using a Game of Thrones API. Informs and refreshes character information for upcoming season.</p>
@@ -91,7 +105,19 @@ export default class Portfolio extends Component {
                 </div>
                 <div className="link-box">
                   <a href="https://wyn-got.herokuapp.com/Characters">Link</a>
-                  <a className="popup-modal-dismiss">Close</a>
+                  <a href="#game-of-thrones" className="popup-modal-dismiss">Close</a>
+                </div>
+              </div>{/* modal-02 End */}
+              <div id="modal-03" className="popup-modal mfp-hide">
+                <img className="scale-with-grid" src="./images/portfolio/resources-co.jpg" alt="resources-co" />
+                <div className="description-box">
+                  <h4>Resources.co</h4>
+                  <p>An Open-source console to interact with data and APIs.</p>
+                  <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
+                </div>
+                <div className="link-box">
+                  <a href="https://resources.co/">Link</a>
+                  <a href="#resources-co" className="popup-modal-dismiss">Close</a>
                 </div>
               </div>{/* modal-02 End */}
 
@@ -121,6 +147,6 @@ export default class Portfolio extends Component {
           {/* Resume Section End*/}
         </div>
       </>
-    );
+    )
   }
 }

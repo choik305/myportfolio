@@ -158,7 +158,7 @@ body {
 --------------------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-   color: #313131;
+   color: #747474;
 	font-family: 'opensans-bold', sans-serif;
    font-weight: normal;
 }
@@ -595,7 +595,7 @@ input[type="checkbox"] { display: inline; }
 .row {
    width: 96%;
    max-width: 1020px;
-   margin: 0 auto;
+   margin: 28px auto;
 }
 /* fixed width for IE8 */
 .ie .row { width: 1000px ; }
