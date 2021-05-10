@@ -88,6 +88,20 @@ export default class Portfolio extends Component {
                       </a>
                     </div>
                   </div> {/* item end */}
+                  <div className="columns portfolio-item">
+                    <div className="item-wrap">
+                      <a href="#modal-04" title>
+                        <img alt="resources-co" src="images/portfolio/affirmations.jpg" style={{ height: 216 }} />
+                        <div className="overlay">
+                          <div className="portfolio-item-meta">
+                            <h5>Affirmations</h5>
+                            <p>Affirmations react application with user authorization.</p>
+                          </div>
+                        </div>
+                        <div className="link-icon"><i className="icon-plus" /></div>
+                      </a>
+                    </div>
+                  </div> {/* item end */}
 
                 </div> {/* portfolio-wrapper end */}
               </div> {/* twelve columns end */}
@@ -127,6 +141,18 @@ export default class Portfolio extends Component {
                 <div className="link-box">
                   <a href="https://resources.co/">Link</a>
                   <a href="#resources-co" className="popup-modal-dismiss">Close</a>
+                </div>
+              </div>{/* modal-03 End */}
+              <div id="modal-04" className="popup-modal mfp-hide">
+                <img className="scale-with-grid" src="images/portfolio/affirmations.jpg" alt="affirmations" />
+                <div className="description-box">
+                  <h4>Affirmations</h4>
+                  <p>Affirmations react application with user authorization.</p>
+                  <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
+                </div>
+                <div className="link-box">
+                  <a href="https://resources.co/">Link</a>
+                  <a href="#affirmations" className="popup-modal-dismiss">Close</a>
                 </div>
               </div>{/* modal-02 End */}
 
