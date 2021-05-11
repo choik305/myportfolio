@@ -151,13 +151,14 @@ export default class Portfolio extends Component {
                   <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
                 </div>
                 <div className="link-box">
-                  <a href="https://resources.co/">Link</a>
+                  <a href="https://affirmation-kevin.web.app/">Link</a>
                   <a href="#affirmations" className="popup-modal-dismiss">Close</a>
                 </div>
-              </div>{/* modal-02 End */}
+              </div>{/* modal-03 End */}
 
             </div> {/* row End */}
           </section> {/* Portfolio Section End*/}
+          
 
           {/* Skills
 ----------------------------------------------- */}
