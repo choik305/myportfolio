@@ -142,7 +142,7 @@ function Portfolio() {
               </div>
             </div>{/* modal-03End */}
             <div id="modal-04" className="popup-modal mfp-hide">
-              <img className="scale-with-grid" src="images/portfolio/weather.jpg" alt="weather" />
+              <img className="scale-with-grid" src="images/portfolio/todo.jpg" alt="todoapp" />
               <div className="description-box">
                 <h4>Todo App</h4>
                 <span className="categories"><i className="fa fa-tag" /></span>
