@@ -49,7 +49,7 @@ function Portfolio() {
 
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="#modal-04" title="affirmations">
+                    <a href="#modal-01" title="affirmations">
                       <img alt="affirmations" src="images/portfolio/affirmations.jpg" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
@@ -63,7 +63,7 @@ function Portfolio() {
                 </div> {/* item end */}
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="#modal-03" title="resources">
+                    <a href="#modal-02" title="resources">
                       <img alt="resources-co" src="images/portfolio/resources-logo.jpg" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
@@ -76,11 +76,24 @@ function Portfolio() {
                 </div> {/* item end */}
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="#modal-05" title="weather-vue">
+                    <a href="#modal-03" title="weather-vue">
                       <img alt="resources-co" src="images/portfolio/weather.jpg" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>Vue.js Weather App</h5>
+                        </div>
+                      </div>
+                      <div className="link-icon"><i className="icon-plus" /></div>
+                    </a>
+                  </div>
+                </div> {/* item end */}
+                <div className="columns portfolio-item">
+                  <div className="item-wrap">
+                    <a href="#modal-04" title="todo-app">
+                      <img alt="todo-app" src="images/portfolio/todo.jpg" />
+                      <div className="overlay">
+                        <div className="portfolio-item-meta">
+                          <h5>Todo App</h5>
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
@@ -92,7 +105,7 @@ function Portfolio() {
             </div> {/* twelve columns end */}
             {/* Modal Popup
 	      --------------------------------------------------------------- */}
-            <div id="modal-04" className="popup-modal mfp-hide">
+            <div id="modal-01" className="popup-modal mfp-hide">
               <img className="scale-with-grid" src="images/portfolio/affirmations.jpg" alt="affirmations" />
               <div className="description-box">
                 <h4>Affirmations</h4>
@@ -104,7 +117,7 @@ function Portfolio() {
                 <a href="#affirmations" className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-04End */}
-            <div id="modal-03" className="popup-modal mfp-hide">
+            <div id="modal-02" className="popup-modal mfp-hide">
               <img className="scale-with-grid" src="images/portfolio/resources-logo.jpg" alt="resources-co" />
               <div className="description-box">
                 <h4>Resources.co</h4>
@@ -116,7 +129,7 @@ function Portfolio() {
                 <a href="#resources-co" className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-03 End */}
-            <div id="modal-05" className="popup-modal mfp-hide">
+            <div id="modal-03" className="popup-modal mfp-hide">
               <img className="scale-with-grid" src="images/portfolio/weather.jpg" alt="weather" />
               <div className="description-box">
                 <h4>Weather App</h4>
@@ -127,7 +140,18 @@ function Portfolio() {
                 <a href="https://github.com/kevinyc-dri/weather-json2" target="_blank" rel="noopener noreferrer">GITHUB REPO</a>
                 <a href="#weather" className="popup-modal-dismiss">Close</a>
               </div>
-            </div>{/* modal-05End */}
+            </div>{/* modal-03End */}
+            <div id="modal-04" className="popup-modal mfp-hide">
+              <img className="scale-with-grid" src="images/portfolio/weather.jpg" alt="weather" />
+              <div className="description-box">
+                <h4>Todo App</h4>
+                <span className="categories"><i className="fa fa-tag" /></span>
+              </div>
+              <div className="link-box">
+                <a href="https://todo-c32-kev.herokuapp.com/" target="_blank" rel="noopener noreferrer">APP DEMO</a>
+                <a href="#todo-app" className="popup-modal-dismiss">Close</a>
+              </div>
+            </div>{/* modal-03End */}
 
           </div> {/* row End */}
         </section> {/* Portfolio Section End*/}
