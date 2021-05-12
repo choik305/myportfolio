@@ -1,8 +1,8 @@
 let resumeData = {
   "imagebaseurl": "https://github.com/choik305/2ndPortfolio.git",
   "name": "Kevin Choi",
-  "role": "Full Stack Developer",
-  "roleDescription": " I like dabbling in various parts of frontend and backend development. I like to learn about new technologies, eat good food or hang out with great people in my free time.",
+  "role": "Software Engineer",
+  "roleDescription": " I build frontend and backend applications. I have a passion for teaching code. On my free time I like to skateboard with my son!",
   "socialLinks":[
       {
         "name":"linkedin",
