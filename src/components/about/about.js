@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-export default class About extends Component {
-  render() {
+import React from 'react';
+
+function About() {
     return (
       <>
         <section id="about">
@@ -32,6 +32,7 @@ export default class About extends Component {
           </div>
         </section>
       </>
-    );
+    )
   }
-}
+
+  export default About
