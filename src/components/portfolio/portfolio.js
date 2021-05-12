@@ -124,7 +124,7 @@ function Portfolio() {
               </div>
               <div className="link-box">
                 <a href="https://weather-json2.vercel.app/" target="_blank" rel="noopener noreferrer">APP DEMO</a>
-                <a href="https://github.com/kevinyc-dri/weather-json2" target="_blank" rel="noopener noreferrer">APP DEMO</a>
+                <a href="https://github.com/kevinyc-dri/weather-json2" target="_blank" rel="noopener noreferrer">GITHUB REPO</a>
                 <a href="#weather" className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-05End */}
