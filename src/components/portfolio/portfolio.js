@@ -63,8 +63,8 @@ function Portfolio() {
                 </div> {/* item end */}
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="#modal-03" title>
-                      <img alt="resources-co" src="images/portfolio/resources-logo.jpg" style={{ height: 216 }} />
+                    <a href="#modal-03" title="resources">
+                      <img alt="resources-co" src="images/portfolio/resources-logo.jpg" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>Resources.co</h5>
