@@ -90,10 +90,10 @@ function Portfolio() {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-04" title="todo-app">
-                      <img alt="todo-app" src="images/portfolio/todo.jpg" />
+                      <img alt="todo-app" src="images/portfolio/sass.jpg" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Todo App</h5>
+                          <h5>React SASS App</h5>
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
@@ -142,13 +142,14 @@ function Portfolio() {
               </div>
             </div>{/* modal-03End */}
             <div id="modal-04" className="popup-modal mfp-hide">
-              <img className="scale-with-grid" src="images/portfolio/todo.jpg" alt="todoapp" />
+              <img className="scale-with-grid" src="images/portfolio/sass.jpg" alt="sassapp" />
               <div className="description-box">
-                <h4>Todo App</h4>
+                <h4>React SASS App</h4>
                 <span className="categories"><i className="fa fa-tag" /></span>
               </div>
               <div className="link-box">
-                <a href="https://todo-c32-kev.herokuapp.com/" target="_blank" rel="noopener noreferrer">APP DEMO</a>
+                <a href="https://react-sass.vercel.app/" target="_blank" rel="noopener noreferrer">APP DEMO</a>
+                <a href="https://github.com/kevinyc-dri/react-sass" target="_blank" rel="noopener noreferrer">GITHUB REPO</a>
                 <a href="#todo-app" className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-03End */}

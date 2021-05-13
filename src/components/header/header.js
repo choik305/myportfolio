@@ -26,6 +26,7 @@ export default class Header extends Component {
                 <li><a href="https://www.facebook.com/choik305"><i className="fa fa-facebook" /></a></li>
                 <li><a href="https://www.linkedin.com/in/kevinyc/"><i className="fa fa-linkedin" /></a></li>
                 <li><a href="https://github.com/kevinyc-dri"><i className="fa fa-github" /></a></li>
+                <li><a href="https://use.foldapp.com/r/NJ4UPC7A"><img src="https://uploads-ssl.webflow.com/5e5d98432c687cb6c71f7894/5fa44b8b3b1bf8774fad57dd_rotating_fold_bitcoin_trans.gif" width="85" alt="freebitcoin" class="image-23"/></a></li>
             </ul>
           </div>
         </div>
