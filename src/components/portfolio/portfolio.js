@@ -20,8 +20,8 @@ function Portfolio() {
             </div> {/* item end */}
             <div className="row item">
               <div className="twelve columns">
-                <h3>Teaching Fellow</h3>
-                <p className="info">Teachers Assistant <span>•</span> <em className="date">July 2019 - August 2019</em></p>
+                <h3>Launch Code</h3>
+                <p className="info">Teaching Fellow <span>•</span> <em className="date">July 2019 - August 2019</em></p>
                 <p>
                   Part-Time Teaching Fellow - Computer Programming, IT, Software Development, Front-end Web Development, Back-end Web Development, Project Management, Coding, and Web Development.
                   </p>
