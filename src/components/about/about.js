@@ -24,7 +24,7 @@ function About() {
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href="/KevinFullStackDevResume.pdf" className="button"><i className="fa fa-download" />Download Resume</a>
+                    <a href="/KevinResume.pdf" className="button"><i className="fa fa-download" />Download Resume</a>
                   </p>
                 </div>
               </div>
