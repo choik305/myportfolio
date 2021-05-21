@@ -168,13 +168,14 @@ function Portfolio() {
               <img className="scale-with-grid" src="images/portfolio/sass.jpg" alt="sassapp" />
               <div className="description-box">
                 <h4>Garden App</h4>
-                <p>A React web application connected with MongoDB deployed with AWS S3 bucket and EC2 Cloud server.</p>
+                <p>A React web application connected with MongoDB and deployed with AWS S3 bucket running on EC2 cloud server.</p>
                 <span className="categories"><i className="fa fa-tag" /></span>
               </div>
               <div className="link-box">
-                <a href="https://react-sass.vercel.app/" target="_blank" rel="noopener noreferrer">APP DEMO</a>
-                <a href="https://github.com/kevinyc-dri/react-sass" target="_blank" rel="noopener noreferrer">GITHUB REPO</a>
-                <a href="#todo-app" className="popup-modal-dismiss">Close</a>
+                <a href="http://vitorias-garden-js.s3-website-us-east-1.amazonaws.com/" target="_blank" rel="noopener noreferrer">APP DEMO</a>
+                <a href="https://github.com/kevinyc-dri/vitorias-garden-app" target="_blank" rel="noopener noreferrer">Front-End GITHUB REPO</a>
+                <a href="https://github.com/kevinyc-dri/vits-garden-api" target="_blank" rel="noopener noreferrer">Back-End GITHUB REPO</a>
+                <a href="#garden-app" className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-04End */}
 
