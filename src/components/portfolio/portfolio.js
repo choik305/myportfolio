@@ -46,7 +46,6 @@ function Portfolio() {
               <h1>Check Out Some of My Works.</h1>
               {/* portfolio-wrapper */}
               <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-01" title="affirmations">
@@ -54,7 +53,6 @@ function Portfolio() {
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>Affirmations</h5>
-
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
@@ -94,6 +92,19 @@ function Portfolio() {
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>React SASS App</h5>
+                        </div>
+                      </div>
+                      <div className="link-icon"><i className="icon-plus" /></div>
+                    </a>
+                  </div>
+                </div> {/* item end */}
+                <div className="columns portfolio-item">
+                  <div className="item-wrap">
+                    <a href="#modal-05" title="garden-app">
+                      <img alt="garden-app" src="images/portfolio/garden.jpg" />
+                      <div className="overlay">
+                        <div className="portfolio-item-meta">
+                          <h5>Garden Shop App</h5>
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
@@ -152,7 +163,20 @@ function Portfolio() {
                 <a href="https://github.com/kevinyc-dri/react-sass" target="_blank" rel="noopener noreferrer">GITHUB REPO</a>
                 <a href="#todo-app" className="popup-modal-dismiss">Close</a>
               </div>
-            </div>{/* modal-03End */}
+            </div>{/* modal-04End */}
+            <div id="modal-05" className="popup-modal mfp-hide">
+              <img className="scale-with-grid" src="images/portfolio/sass.jpg" alt="sassapp" />
+              <div className="description-box">
+                <h4>Garden App</h4>
+                <p>A React web application connected with MongoDB deployed with AWS S3 bucket and EC2 Cloud server.</p>
+                <span className="categories"><i className="fa fa-tag" /></span>
+              </div>
+              <div className="link-box">
+                <a href="https://react-sass.vercel.app/" target="_blank" rel="noopener noreferrer">APP DEMO</a>
+                <a href="https://github.com/kevinyc-dri/react-sass" target="_blank" rel="noopener noreferrer">GITHUB REPO</a>
+                <a href="#todo-app" className="popup-modal-dismiss">Close</a>
+              </div>
+            </div>{/* modal-04End */}
 
           </div> {/* row End */}
         </section> {/* Portfolio Section End*/}
