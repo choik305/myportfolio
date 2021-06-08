@@ -165,7 +165,7 @@ function Portfolio() {
               </div>
             </div>{/* modal-04End */}
             <div id="modal-05" className="popup-modal mfp-hide">
-              <img className="scale-with-grid" src="images/portfolio/sass.jpg" alt="sassapp" />
+              <img className="scale-with-grid" src="images/portfolio/garden.jpg" alt="sassapp" />
               <div className="description-box">
                 <h4>Garden App</h4>
                 <p>A React web application connected with MongoDB and deployed with AWS S3 bucket running on EC2 cloud server.</p>
