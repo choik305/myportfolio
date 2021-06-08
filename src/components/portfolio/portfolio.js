@@ -111,6 +111,19 @@ function Portfolio() {
                     </a>
                   </div>
                 </div> {/* item end */}
+                <div className="columns portfolio-item">
+                  <div className="item-wrap">
+                    <a href="#modal-06" title="hodl-good">
+                      <img alt="hodl-good" src="images/portfolio/hodl.jpg" />
+                      <div className="overlay">
+                        <div className="portfolio-item-meta">
+                          <h5>HODLgood</h5>
+                        </div>
+                      </div>
+                      <div className="link-icon"><i className="icon-plus" /></div>
+                    </a>
+                  </div>
+                </div> {/* item end */}
 
               </div> {/* portfolio-wrapper end */}
             </div> {/* twelve columns end */}
@@ -177,7 +190,21 @@ function Portfolio() {
                 <a href="https://github.com/kevinyc-dri/vits-garden-api" target="_blank" rel="noopener noreferrer">Back-End GITHUB REPO</a>
                 <a href="#garden-app" className="popup-modal-dismiss">Close</a>
               </div>
-            </div>{/* modal-04End */}
+            </div>{/* modal-05End */}
+            <div id="modal-06" className="popup-modal mfp-hide">
+              <img className="scale-with-grid" src="images/portfolio/hodl.jpg" alt="reactapp" />
+              <div className="description-box">
+                <h4>HODLgood</h4>
+                <p>A React web application connected with MongoDB and deployed with AWS S3 bucket running on EC2 cloud server.</p>
+                <span className="categories"><i className="fa fa-tag" /></span>
+              </div>
+              <div className="link-box">
+                <a href="http://dev.hodlgood.com/" target="_blank" rel="noopener noreferrer">APP DEMO</a>
+                <a href="https://github.com/kevinyc-dri/coin-purchase-log" target="_blank" rel="noopener noreferrer">Front-End GITHUB REPO</a>
+                <a href="https://github.com/kevinyc-dri/hodl-good-api" target="_blank" rel="noopener noreferrer">Back-End GITHUB REPO</a>
+                <a href="#hodl-good" className="popup-modal-dismiss">Close</a>
+              </div>
+            </div>{/* modal-05End */}
 
           </div> {/* row End */}
         </section> {/* Portfolio Section End*/}
