@@ -403,7 +403,6 @@ ul#nav li.current a { color: #F06000; }
 
 /* Portfolio Content */
 #portfolio-wrapper {
-   display: flex;
    justify-content: center;
 }
 #portfolio-wrapper .columns { margin-bottom: 36px; }
